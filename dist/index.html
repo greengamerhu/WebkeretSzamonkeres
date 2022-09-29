@@ -5,10 +5,49 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' href='main.css'>
+    <script src="main.js" defer></script>
+
+
+
 </head>
-<body>
-    <p>This is a template</p>    
-    <script src='main.js'></script>
+<body class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <label for="url">kép url <br>
+                <input id="url" type="url">
+            </label>
+            </div>
+            <div class="col-md-3">
+                <label for="kepszelesseg">kép szélesség<br>
+                <input id="kepszelesseg" type="number">
+            </label> 
+            </div>
+            <div class="col-md-3"> 
+                <label for="keretmeret">Kép keret méret <br>
+                <input id="keretmeret" type="number">
+            </label> 
+            </div>
+            <div class="col-md-3">  
+                <label for="szin">Keret szin <br>   
+                <input id="szin" type="color">
+            </label> 
+            </div>
+        </div>
+        <div class="row">
+         
+            <div class="col-md-12 d-flex justify-content-center">
+                <img  src="" width="400px" id="kep" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
+<footer class="">
+    <p>Rimóczi Dániel 2/14s</p>
+    <button id="dark" value="0">Sötét mód</button>
+</footer>
 </html>

@@ -1,0 +1,15 @@
+img {
+    margin-top: 50px   ;
+    display: block;
+}
+input {
+   margin: auto;
+   display: block;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+footer {
+
+}
